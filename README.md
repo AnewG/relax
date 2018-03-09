@@ -1,5 +1,7 @@
 # Relax
 
+![logo](leona.jpg "Logo")
+
 ## Architecture
 
 | Layer | Core |    
