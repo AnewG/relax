@@ -21,7 +21,7 @@
   * [ ] [Mobile-Detect](https://github.com/serbanghita/Mobile-Detect/)
 * Encapsulate components
   * [ ] Register/Login, Include Oauth(wechat,qq,weibo,phone), Table
-  * [ ] RBAC, With Ace Admin
+  * [ ] RBAC, With Ace Admin and other admin_ table
   * [ ] Wechat SDK
   * [ ] Wxpay, Alipay callback
 * Deploy
