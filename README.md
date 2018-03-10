@@ -7,7 +7,7 @@
 | Layer | Core |    
 | - | - |
 | Back-End | [Codeigniter](https://github.com/bcit-ci/CodeIgniter) |
-| Front-End | [Ant Design Pro](https://pro.ant.design/index-cn) & [Ant Design Mobile](https://mobile.ant.design/index-cn) |
+| Front-End | [Ace Admin](http://ace.jeka.by/) & [WeUI](https://weui.io/) |
 | Deploy | [Docker](https://github.com/moby/moby) |
 
 ## Roadmap
@@ -20,10 +20,8 @@
   * [ ] [guzzle](https://github.com/guzzle/guzzle)
   * [ ] [Mobile-Detect](https://github.com/serbanghita/Mobile-Detect/)
 * Encapsulate components
-  * [ ] Register/Login, Include Oauth(wechat,qq,weibo)
-  * [ ] RBAC
-  * [ ] Admin components(antd)
-  * [ ] Mobile components(antd-mobile)
+  * [ ] Register/Login, Include Oauth(wechat,qq,weibo,phone), Table
+  * [ ] RBAC, With Ace Admin
   * [ ] Wechat SDK
   * [ ] Wxpay, Alipay callback
 * Deploy
