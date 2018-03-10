@@ -20,7 +20,7 @@
   * [ ] [guzzle](https://github.com/guzzle/guzzle)
   * [ ] [Mobile-Detect](https://github.com/serbanghita/Mobile-Detect/)
 * Encapsulate components
-  * [ ] Register/Login, Include Oauth(wechat,qq,weibo,phone), Table
+  * [ ] Register/Login, Include Oauth(wechat,qq,weibo,phone), Table see [here](https://codeigniter.com/user_guide/general/compatibility_functions.html)
   * [ ] RBAC, With Ace Admin and other admin_ table
   * [ ] Wechat SDK
   * [ ] Wxpay, Alipay callback
