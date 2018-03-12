@@ -21,6 +21,14 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+
+		require_once THIRD_PARTY_PATH . 'Faker/autoload.php';
+		$faker = Faker\Factory::create('zh_CN');
+		
+		var_dump($faker->randomDigit);
+		var_dump($faker->words(3));
+		var_dump($faker->bank);die;
+
 		include THIRD_PARTY_PATH . 'JWT/JWT.php';
 		$key = "example_key";
 		$token = array(
