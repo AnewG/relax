@@ -15,7 +15,7 @@
 * Import third library
   * [x] [JWT](https://github.com/firebase/php-jwt)
   * [x] [Faker](https://github.com/fzaninotto/Faker)
-  * [ ] [Carbon](https://github.com/briannesbitt/Carbon)
+  * [x] [Carbon](https://github.com/briannesbitt/Carbon)
   * [ ] [Goutte](https://github.com/FriendsOfPHP/Goutte)
   * [ ] [guzzle](https://github.com/guzzle/guzzle)
   * [ ] [Mobile-Detect](https://github.com/serbanghita/Mobile-Detect/)

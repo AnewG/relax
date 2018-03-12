@@ -36,6 +36,8 @@
  * @filesource
  */
 
+date_default_timezone_set('Asia/Shanghai');
+
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
@@ -268,6 +270,16 @@ switch (ENVIRONMENT)
 
 	define('APPPATH', $application_folder.DIRECTORY_SEPARATOR);
 	define('THIRD_PARTY_PATH', APPPATH . 'third_party' . DIRECTORY_SEPARATOR);
+
+	spl_autoload_register(function ($class) {
+		// var_dump($class);die;
+	    $classPath = THIRD_PARTY_PATH.strtr($class, '\\', '/').'.php';
+	    //var_dump($classPath);die;
+	    if(is_file($classPath)){
+	    	//var_dump($classPath);die;
+	    	require $classPath;
+	    }
+	});
 
 	// The path to the "views" directory
 	if ( ! isset($view_folder[0]) && is_dir(APPPATH.'views'.DIRECTORY_SEPARATOR))

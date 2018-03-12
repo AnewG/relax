@@ -1,6 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 use \Firebase\JWT\JWT;
+use \Carbon\Carbon;
 
 class Welcome extends CI_Controller {
 
@@ -21,6 +22,12 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+		require THIRD_PARTY_PATH . 'Symfony/Component/Translation/Translator.php';
+		require THIRD_PARTY_PATH . 'Carbon/Carbon.php';
+		$nt = Carbon::now();
+		$dt = Carbon::createFromDate(2017, 8, 1);
+		var_dump($nt->diffForHumans($dt));
+		die;
 
 		require_once THIRD_PARTY_PATH . 'Faker/autoload.php';
 		$faker = Faker\Factory::create('zh_CN');
