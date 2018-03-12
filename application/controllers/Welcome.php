@@ -26,6 +26,10 @@ class Welcome extends CI_Controller {
 	{
 		echo 'test_only';die;
 
+		require THIRD_PARTY_PATH . 'Mobile_Detect.php';
+		$detect = new Mobile_Detect;
+		var_dump($detect->is('iphone'));die;
+
 		require THIRD_PARTY_PATH . 'guzzle.phar';
 		$client = new \GuzzleHttp\Client();
 		$res = $client->request('GET', 'https://api.github.com/repos/guzzle/guzzle');

@@ -18,7 +18,7 @@
   * [x] [Carbon](https://github.com/briannesbitt/Carbon)
   * [x] [Goutte](https://github.com/FriendsOfPHP/Goutte)
   * [x] [Guzzle](https://github.com/guzzle/guzzle)
-  * [ ] [Mobile-Detect](https://github.com/serbanghita/Mobile-Detect/)
+  * [x] [Mobile-Detect](https://github.com/serbanghita/Mobile-Detect/)
 * Encapsulate components
   * [ ] Register/Login, Include Oauth(wechat,qq,weibo,phone), Table see [here](https://codeigniter.com/user_guide/general/compatibility_functions.html)
   * [ ] RBAC, With Ace Admin and other admin_ table
