@@ -13,7 +13,7 @@
 ## Roadmap
 
 * Import third library
-  * [ ] [JWT](https://jwt.io/)
+  * [x] [JWT](https://github.com/firebase/php-jwt)
   * [ ] [alice](https://github.com/nelmio/alice)
   * [ ] [Carbon](https://github.com/briannesbitt/Carbon)
   * [ ] [Goutte](https://github.com/FriendsOfPHP/Goutte)
