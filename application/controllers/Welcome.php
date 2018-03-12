@@ -2,6 +2,8 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 use \Firebase\JWT\JWT;
 use \Carbon\Carbon;
+use \Goutte\Client;
+use \GuzzleHttp\Client as GuzzleClient;
 
 class Welcome extends CI_Controller {
 
@@ -22,6 +24,17 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
+		echo 'test_only';die;
+
+		require THIRD_PARTY_PATH . 'goutte.phar';
+		$client = new Client();
+		$crawler = $client->request('GET', 'https://www.symfony.com/blog/');
+		$link = $crawler->selectLink('Security Advisories')->link();
+		$crawler = $client->click($link);
+		$crawler->filter('h2 > a')->each(function ($node) {
+		    var_dump($node->text());
+		});die;
+
 		require THIRD_PARTY_PATH . 'Symfony/Component/Translation/Translator.php';
 		require THIRD_PARTY_PATH . 'Carbon/Carbon.php';
 		$nt = Carbon::now();

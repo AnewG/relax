@@ -16,7 +16,7 @@
   * [x] [JWT](https://github.com/firebase/php-jwt)
   * [x] [Faker](https://github.com/fzaninotto/Faker)
   * [x] [Carbon](https://github.com/briannesbitt/Carbon)
-  * [ ] [Goutte](https://github.com/FriendsOfPHP/Goutte)
+  * [x] [Goutte](https://github.com/FriendsOfPHP/Goutte)
   * [ ] [guzzle](https://github.com/guzzle/guzzle)
   * [ ] [Mobile-Detect](https://github.com/serbanghita/Mobile-Detect/)
 * Encapsulate components
