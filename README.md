@@ -17,7 +17,7 @@
   * [x] [Faker](https://github.com/fzaninotto/Faker)
   * [x] [Carbon](https://github.com/briannesbitt/Carbon)
   * [x] [Goutte](https://github.com/FriendsOfPHP/Goutte)
-  * [ ] [guzzle](https://github.com/guzzle/guzzle)
+  * [x] [guzzle](https://github.com/guzzle/guzzle)
   * [ ] [Mobile-Detect](https://github.com/serbanghita/Mobile-Detect/)
 * Encapsulate components
   * [ ] Register/Login, Include Oauth(wechat,qq,weibo,phone), Table see [here](https://codeigniter.com/user_guide/general/compatibility_functions.html)

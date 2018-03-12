@@ -26,6 +26,11 @@ class Welcome extends CI_Controller {
 	{
 		echo 'test_only';die;
 
+		require THIRD_PARTY_PATH . 'guzzle.phar';
+		$client = new \GuzzleHttp\Client();
+		$res = $client->request('GET', 'https://api.github.com/repos/guzzle/guzzle');
+		echo $res->getStatusCode();die;
+
 		require THIRD_PARTY_PATH . 'goutte.phar';
 		$client = new Client();
 		$crawler = $client->request('GET', 'https://www.symfony.com/blog/');
