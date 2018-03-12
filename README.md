@@ -23,7 +23,6 @@
   * [ ] Register/Login, User table, see [here](https://codeigniter.com/user_guide/general/compatibility_functions.html)
   * [ ] RBAC, With Ace Admin and other admin_ table
   * [ ] Wechat SDK
-  * [ ] Wxpay, Alipay callback
 * Deploy
   * [ ] Docker
         
