@@ -7,7 +7,7 @@
 | Layer | Core |    
 | - | - |
 | Back-End | [Codeigniter](https://github.com/bcit-ci/CodeIgniter) |
-| Front-End | [Ace Admin](http://ace.jeka.by/) & [WeUI](https://weui.io/) |
+| Front-End | [Ace Admin](https://github.com/bopoda/ace) & [WeUI](https://github.com/Tencent/weui) |
 
 ## Roadmap
 
