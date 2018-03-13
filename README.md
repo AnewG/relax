@@ -8,7 +8,6 @@
 | - | - |
 | Back-End | [Codeigniter](https://github.com/bcit-ci/CodeIgniter) |
 | Front-End | [Ace Admin](http://ace.jeka.by/) & [WeUI](https://weui.io/) |
-| Deploy | [Docker](https://github.com/moby/moby) |
 
 ## Roadmap
 
@@ -19,6 +18,4 @@
   * [x] [Goutte](https://github.com/FriendsOfPHP/Goutte)
   * [x] [Guzzle](https://github.com/guzzle/guzzle)
   * [x] [Mobile-Detect](https://github.com/serbanghita/Mobile-Detect/)
-* Deploy
-  * [ ] Docker
         
