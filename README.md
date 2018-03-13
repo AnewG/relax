@@ -19,8 +19,6 @@
   * [x] [Goutte](https://github.com/FriendsOfPHP/Goutte)
   * [x] [Guzzle](https://github.com/guzzle/guzzle)
   * [x] [Mobile-Detect](https://github.com/serbanghita/Mobile-Detect/)
-* Encapsulate components
-  * [ ] Wechat SDK
 * Deploy
   * [ ] Docker
         
