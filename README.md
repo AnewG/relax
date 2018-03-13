@@ -20,8 +20,6 @@
   * [x] [Guzzle](https://github.com/guzzle/guzzle)
   * [x] [Mobile-Detect](https://github.com/serbanghita/Mobile-Detect/)
 * Encapsulate components
-  * [ ] User table, Register/Login/Captcha/FindPwd function, see [here](https://codeigniter.com/user_guide/general/compatibility_functions.html)
-  * [ ] RBAC With Ace Admin and other admin_ table. User and admin table -> Migration
   * [ ] Wechat SDK
 * Deploy
   * [ ] Docker
